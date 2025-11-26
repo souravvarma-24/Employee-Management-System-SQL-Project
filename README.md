@@ -1,9 +1,10 @@
 # 📘 Employee Management System – SQL Project  
-### 👨‍💻 By **Sourav Varma G**
+### By **Sourav Varma G**
 
 ---
 
-## ⭐ Project Summary  
+## ⭐ Project Summary
+
 This SQL project is a complete end-to-end **Employee Management System (EMS)** that manages:
 
 - Employee details  
@@ -13,103 +14,101 @@ This SQL project is a complete end-to-end **Employee Management System (EMS)** t
 - Qualifications  
 - Payroll processing  
 
-It demonstrates strong SQL knowledge useful for **Data Analyst** and **Data Scientist** roles.
+It demonstrates strong SQL skills in database design, ER modeling, joins, constraints, and real-world business workflows.
 
 ---
 
-## 🏗 Database Architecture  
-The system contains **6 tables**:
+## 🗂 Folder Structure
 
-| Table | Description |
-|-------|-------------|
-| **JobDepartment** | Departments & job roles |
-| **Salary_Bonus** | Salary, annual pay & bonuses |
-| **Employee** | Employee personal & professional info |
-| **Qualification** | Employee skills & qualifications |
-| **Leaves** | Leave records |
-| **Payroll** | Monthly salary & deductions |
+- **sql/**  
+  Contains all SQL scripts for table creation, insertions, constraints, and queries.
 
----
+- **sql/assets/**  
+  Contains project-related images (ER Diagram, screenshots, etc.)
 
-## 🎯 Problem Statement  
-Companies often store employee information in multiple spreadsheets and files, causing:
+- **sql/sql_workbench_Sourav_Varma_G.sql**  
+  Full SQL script used in this project.
 
-- Missing or outdated employee data  
-- Incorrect payroll calculations  
-- Difficulty tracking leaves  
-- No proper HR analytics  
+- **sql/assets/ERDiagram.png**  
+  Entity–Relationship diagram of the database.
 
-### ✔ **Goal:**  
-Create a **centralized SQL database** that manages all employee-related information accurately and efficiently.
+- **sql_ppt_Sourav_Varma_G.pptx**  
+  Project presentation.
+
+- **README.md**  
+  Project documentation.
 
 ---
 
-## 📂 Project Files in This Repository  
-| File | Description |
-|------|-------------|
-| `sql_workbench_Sourav_Varma_G.sql` | Complete SQL file: schema + 21 queries |
-| `sql_ppt_Sourav_Varma_G.pptx` | Full project presentation |
+## 🖼 ER Diagram
+
+Below is the ER model representing the entire database structure:
+
+![ER Diagram](sql/assets/ERDiagram.png)
 
 ---
 
-## 🧠 SQL Concepts Used  
-- Primary keys & foreign keys  
-- Cascading updates/deletes  
-- JOINs (INNER, LEFT)  
-- GROUP BY & ORDER BY  
-- Aggregate Functions (SUM, AVG, COUNT)  
-- String & Date functions  
-- Subqueries  
-- HR Analytics Queries  
+## 🏗 Database Tables Overview
+
+### **1. employee**  
+Stores employee personal data and job-related information.
+
+### **2. jobdepartment**  
+Contains job role names, descriptions, and salary ranges.
+
+### **3. salary_bonus**  
+Handles bonus percentages, annual salary amounts, and linked job roles.
+
+### **4. leave**  
+Tracks employee leave dates and reasons.
+
+### **5. qualification**  
+Manages employee qualifications, job requirements, and entry dates.
+
+### **6. payroll**  
+Processes monthly payroll, salary, leave deductions, and net total amount.
 
 ---
 
-## 📊 Business Insights Covered  
+## 📌 Key Features
 
-### 👥 Employee Insights  
-- Unique employees  
-- Employees per department  
-- Total salary expenditure  
-- Average salary per department  
-- Top 5 highest-paid employees  
-
-### 🏢 Department & Job Role  
-- Job roles per department  
-- Highest paying job roles  
-- Salary range analysis  
-
-### 🎓 Qualification Analytics  
-- Employees with qualifications  
-- Roles needing most qualifications  
-- Employees with highest skill count  
-
-### 🗓 Leave Analytics  
-- Year with most leaves  
-- Leave count per department  
-- Most leave-taking employees  
-- Leave vs Payroll comparison  
-
-### 💰 Payroll Analytics  
-- Monthly payroll  
-- Average bonus per department  
-- Highest bonus department  
-- Net payroll after leave deductions  
+- Complete employee data management  
+- Department & job mapping  
+- Salary and bonus system  
+- Leave management and tracking  
+- Qualification mapping  
+- Payroll processing with leave deductions  
+- Fully relational database with foreign keys  
+- Clean ER architecture  
 
 ---
 
-## 🛠 Tools Used  
-- **MySQL / SQL Workbench**  
-- **GitHub**  
-- **PowerPoint**  
+## 🛠 Technologies Used
+
+- MySQL  
+- SQL Workbench  
+- ER Diagram Modeling  
+- GitHub  
 
 ---
 
-## ✍️ Author  
-**Sourav Varma G**  
-GitHub: https://github.com/souravvarma-24
+## ▶ How to Run This Project
+
+1. Clone or download this repository  
+2. Open MySQL Workbench  
+3. Run the script:  
+   ```
+   sql/sql_workbench_Sourav_Varma_G.sql
+   ```  
+4. Refresh schemas  
+5. View ER diagram from `sql/assets/ERDiagram.png`  
+6. Refer to the project PPT for explanation  
 
 ---
 
-## 🎉 Conclusion  
-This SQL project demonstrates real-world HR data management using SQL.  
-It showcases strong database design, query writing, analytical thinking, and reporting skills.
+## 🏁 Conclusion
+
+This project showcases strong SQL skills suitable for **Data Analyst**, **Database Developer**, and **Data Engineer** roles.  
+It includes complete database design, ER modeling, SQL queries, and business logic.
+
+---
