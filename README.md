@@ -193,3 +193,7 @@ By analyzing employee behavior, compensation structures, departmental trends, an
 - Performance evaluation  
 - Leave policies  
 - Payroll management
+
+## 📁 Folder Structure
+
+
