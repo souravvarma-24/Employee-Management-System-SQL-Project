@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------
    EMPLOYEE MANAGEMENT SYSTEM
-   Developer: Sourav Varma G
+   Developer: Sourav Varma Gottumukkala
 ------------------------------------------------------------ */
 CREATE DATABASE IF NOT EXISTS EmployeeDB;
 USE EmployeeDB;
