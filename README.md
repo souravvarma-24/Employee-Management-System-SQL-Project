@@ -37,36 +37,30 @@ The EMS is structured with the following relational tables:
 
 ---
 
-## 🖼 ER Diagram
-
-A detailed Entity-Relationship Diagram representing table relationships.
+## 🖼 ER Diagram  
+The complete ER diagram of the system is included in the repository.
 
 📌 **Path:**  
-`sql/assets/ERDiagram.png`
+`EMS_Reports/ERDiagram.png`
 
 ---
 
-## 📁 Folder Structure
+## 📁 Folder Structure (Final)
 
 ```
-datasets/
- ├── Bonuses.csv
- ├── Departments.csv
- ├── Employees.csv
+EMS_Datasets/
+ ├── Employee.csv
+ ├── JobDepartment.csv
+ ├── Salary_Bonus.csv
+ ├── Qualification.csv
  ├── Leaves.csv
- ├── Qualifications.csv
- └── Salaries.csv
+ └── Payroll.csv
 
-sql/
- ├── 1_create_tables.sql
- ├── 2_insert_data.sql
- ├── 3_analysis_queries.sql
- ├── sql_workbench_Sourav_Varma_G.sql
- └── assets/
-       └── ERDiagram.png
+EMS_WorkBench/
+ ├── SQL_WORKBENCH_Sourav_Varma_Gottumukkala.sql
 
-reports/
- └── sql_ppt_Sourav_Varma_G.pptx
+EMS_Reports/
+ └── SQL_PPT_Sourav_Varma_Gottumukkala.pptx
 
 README.md
 ```
@@ -123,7 +117,42 @@ Uneven employee distribution affects productivity.
 ### 5️⃣ Improve Salary Structure
 Salary variations across the same roles indicate restructuring opportunities.
 
+
 ---
+
+
+## ▶️ How to Run the Project
+
+### **Step 1 — Import CSV Datasets**
+Import each CSV into its respective table:
+
+| CSV File | Table Name |
+|----------|------------|
+| Employee.csv | Employee |
+| JobDepartment.csv | JobDepartment |
+| Salary_Bonus.csv | Salary_Bonus |
+| Qualification.csv | Qualification |
+| Leaves.csv | Leaves |
+| Payroll.csv | Payroll |
+
+### **Step 2 — Run the SQL Script**
+
+Execute this file in MySQL Workbench:
+
+```
+EMS_WorkBench/SQL_WORKBENCH_Sourav_Varma_Gottumukkala.sql
+```
+
+### **Step 3 — View Reports & Presentation**
+
+Open the final project PPT:
+
+```
+EMS_Reports/SQL_PPT_Sourav_Varma_Gottumukkala.pptx
+```
+
+---
+
 
 ## 🛠 Technologies Used
 
@@ -134,50 +163,6 @@ Salary variations across the same roles indicate restructuring opportunities.
 
 ---
 
-## ▶️ How to Run This Project
-
-### **Step 1 — Clone or Download the Repository**
-```
-git clone https://github.com/yourusername/Employee-Management-System-SQL-Project.git
-```
-
-### **Step 2 — Open MySQL Workbench**
-
-### **Step 3 — Run the SQL Scripts**
-
-
-
-## 📘Create tables:
-```
-sql/1_create_tables.sql
-```
-
-Insert data:
-```
-sql/2_insert_data.sql
-```
-
-Run analysis:
-```
-sql/3_analysis_queries.sql
-```
-
-Or run the full script:
-```
-sql/sql_workbench_Sourav_Varma_G.sql
-```
-
-### **Step 4 — View the ER Diagram**
-```
-sql/assets/ERDiagram.png
-```
-
-### **Step 5 — Open the Presentation**
-```
-reports/sql_ppt_Sourav_Varma_G.pptx
-```
-
----
 
 ## 🧠 Challenges Faced
 
