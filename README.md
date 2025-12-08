@@ -45,7 +45,7 @@ The complete ER diagram of the system is included in the repository.
 
 ---
 
-## 📁 Folder Structure (Final)
+## 📁 Folder Structure
 
 ```
 EMS_Datasets/
